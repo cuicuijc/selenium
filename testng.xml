@@ -4,7 +4,8 @@
     <test verbose="2" preserve-order="true" name="C:/GitIDEA/selenium-testng-study">
         <classes><class name="com.selenium.BasicTest">
             <methods>
-                <include name="test"/>
+                <include name="googleCheeseExample"/>
+                <include name="googleMilkExample"/>
             </methods>
         </class>
         </classes>
