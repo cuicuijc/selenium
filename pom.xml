@@ -26,6 +26,7 @@
 
         <!--Plugin versions-->
         <threads>2</threads>
+        <browser>chrome</browser>
     </properties>
 
     <build>
@@ -45,6 +46,10 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <version>${maven-failsafe-plugin.version}</version>
+                <!--
+                 Failsafe 插件的配置文件中添加名为systemPropertyVariables的新配置，并在其中添加Maven属性；
+                 在systmePropertyVariables中定义的所有内容都将成为测试可用的系统属性
+                -->
                 <configuration>
                     <parallel>methods</parallel>
                     <threadCount>${threads}</threadCount>
@@ -58,9 +63,9 @@
                             <value>com.masteringselenium.listeners.ScreenshotListener</value>
                         </property>
                     </properties>
-
+-->
                     <systemPropertyVariables>
-                        <gridURL>${seleniumGridURL}</gridURL>
+                        <!--<gridURL>${seleniumGridURL}</gridURL>
                         Set properties passed in by the driver binary downloader
                         <phantomjs.binary.path>${phantomjs.binary.path}</phantomjs.binary.path>
                         <webdriver.chrome.driver>${webdriver.chrome.driver}</webdriver.chrome.driver>
@@ -68,8 +73,9 @@
                         <webdriver.opera.driver>${webdriver.opera.driver}</webdriver.opera.driver>
                         <webdriver.gecko.driver>${webdriver.gecko.driver}</webdriver.gecko.driver>
                         <webdriver.edge.driver>${webdriver.edge.driver}</webdriver.edge.driver>
+                        -->
                         <browser>${browser}</browser>
-                        <headless>${headless}</headless>
+                       <!-- <headless>${headless}</headless>
                         <remoteDriver>${remote}</remoteDriver>
 
                         <desiredPlatform>${platform}</desiredPlatform>
@@ -77,9 +83,8 @@
                         <screenshotDirectory>${screenshotDirectory}</screenshotDirectory>
                         <proxyEnabled>${proxyEnabled}</proxyEnabled>
                         <proxyHost>${proxyHost}</proxyHost>
-                        <proxyPort>${proxyPort}</proxyPort>
+                        <proxyPort>${proxyPort}</proxyPort>-->
                     </systemPropertyVariables>
-                -->
 
                 </configuration>
 

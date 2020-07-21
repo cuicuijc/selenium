@@ -1,4 +1,8 @@
+com\selenium\config\DriverType$2.class
+com\selenium\DriverBase.class
+com\selenium\config\DriverFactory.class
+com\selenium\config\DriverSetup.class
+com\selenium\config\DriverType$1.class
 com\selenium\BasicIT.class
 com\selenium\DriverBase$1.class
-com\selenium\DriverBase.class
-com\selenium\DriverFactory.class
+com\selenium\config\DriverType.class

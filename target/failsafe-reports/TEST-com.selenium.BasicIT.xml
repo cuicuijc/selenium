@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="com.selenium.BasicIT" time="17.339" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="com.selenium.BasicIT" time="235.513" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\c5270503\AppData\Local\Temp\surefire1064039250419286040\surefirebooter8040664183143258314.jar C:\Users\c5270503\AppData\Local\Temp\surefire1064039250419286040 2020-07-16T10-34-36_700-jvmRun1 surefire8098346675203333046tmp surefire_04140890111452255165tmp"/>
+    <property name="sun.java.command" value="C:\Users\c5270503\AppData\Local\Temp\surefire5415550380109738365\surefirebooter170270038757114889.jar C:\Users\c5270503\AppData\Local\Temp\surefire5415550380109738365 2020-07-21T10-34-55_781-jvmRun1 surefire1004792060724162202tmp surefire_03497554951234085773tmp"/>
     <property name="surefire.test.class.path" value="C:\GitIDEA\selenium-testng-study\target\test-classes;C:\GitIDEA\selenium-testng-study\target\selenium-testng-study-DEV-SNAPSHOT.jar;C:\Maven\apache-maven-3.6.3\repo\org\seleniumhq\selenium\selenium-java\3.9.1\selenium-java-3.9.1.jar;C:\Maven\apache-maven-3.6.3\repo\org\seleniumhq\selenium\selenium-api\3.9.1\selenium-api-3.9.1.jar;C:\Maven\apache-maven-3.6.3\repo\org\seleniumhq\selenium\selenium-chrome-driver\3.9.1\selenium-chrome-driver-3.9.1.jar;C:\Maven\apache-maven-3.6.3\repo\org\seleniumhq\selenium\selenium-edge-driver\3.9.1\selenium-edge-driver-3.9.1.jar;C:\Maven\apache-maven-3.6.3\repo\org\seleniumhq\selenium\selenium-firefox-driver\3.9.1\selenium-firefox-driver-3.9.1.jar;C:\Maven\apache-maven-3.6.3\repo\org\seleniumhq\selenium\selenium-ie-driver\3.9.1\selenium-ie-driver-3.9.1.jar;C:\Maven\apache-maven-3.6.3\repo\org\seleniumhq\selenium\selenium-opera-driver\3.9.1\selenium-opera-driver-3.9.1.jar;C:\Maven\apache-maven-3.6.3\repo\org\seleniumhq\selenium\selenium-remote-driver\3.9.1\selenium-remote-driver-3.9.1.jar;C:\Maven\apache-maven-3.6.3\repo\org\seleniumhq\selenium\selenium-safari-driver\3.9.1\selenium-safari-driver-3.9.1.jar;C:\Maven\apache-maven-3.6.3\repo\org\seleniumhq\selenium\selenium-support\3.9.1\selenium-support-3.9.1.jar;C:\Maven\apache-maven-3.6.3\repo\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Maven\apache-maven-3.6.3\repo\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Maven\apache-maven-3.6.3\repo\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Maven\apache-maven-3.6.3\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Maven\apache-maven-3.6.3\repo\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Maven\apache-maven-3.6.3\repo\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Maven\apache-maven-3.6.3\repo\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Maven\apache-maven-3.6.3\repo\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Maven\apache-maven-3.6.3\repo\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Maven\apache-maven-3.6.3\repo\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Maven\apache-maven-3.6.3\repo\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Maven\apache-maven-3.6.3\repo\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Maven\apache-maven-3.6.3\repo\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Maven\apache-maven-3.6.3\repo\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Maven\apache-maven-3.6.3\repo\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Maven\apache-maven-3.6.3\repo\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Maven\apache-maven-3.6.3\repo\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Maven\apache-maven-3.6.3\repo\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Maven\apache-maven-3.6.3\repo\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Maven\apache-maven-3.6.3\repo\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\c5270503"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\c5270503\AppData\Local\Temp\surefire1064039250419286040\surefirebooter8040664183143258314.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\c5270503\AppData\Local\Temp\surefire5415550380109738365\surefirebooter170270038757114889.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -42,6 +42,7 @@
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
+    <property name="browser" value="firefox"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Maven\apache-maven-3.6.3\repo"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
@@ -53,7 +54,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oracle\C5270503\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Software\Perforce\;C:\Program Files (x86)\HP\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin ? C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Selina_OnP\Automation\maven3.6.0\bin;C:\Git\Git\cmd;C:\Maven\apache-maven-3.6.3\bin;C:\Users\c5270503\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oracle\C5270503\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Software\Perforce\;C:\Program Files (x86)\HP\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin ? C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Selina_OnP\Automation\maven3.6.0\bin;C:\Git\Git\cmd;C:\Maven\apache-maven-3.6.3\bin;C:\GitIDEA\selenium-testng-study;C:\Users\c5270503\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.241-b07"/>
@@ -61,6 +62,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="googleCheeseExample" classname="com.selenium.BasicIT" time="12.803"/>
-  <testcase name="googleMilkExample" classname="com.selenium.BasicIT" time="13.67"/>
+  <testcase name="googleMilkExample" classname="com.selenium.BasicIT" time="170.767"/>
+  <testcase name="googleCheeseExample" classname="com.selenium.BasicIT" time="226.795"/>
 </testsuite>
