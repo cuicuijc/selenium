@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="226832" started-at="2020-07-21T02:34:57Z" finished-at="2020-07-21T02:38:44Z">
+  <suite name="Surefire suite" duration-ms="15956" started-at="2020-07-23T01:33:10Z" finished-at="2020-07-23T01:33:26Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="226832" started-at="2020-07-21T02:34:57Z" finished-at="2020-07-21T02:38:44Z">
+    <test name="Surefire test" duration-ms="15956" started-at="2020-07-23T01:33:10Z" finished-at="2020-07-23T01:33:26Z">
       <class name="com.selenium.BasicIT">
-        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:com.selenium.BasicIT@77b52d12]" name="instantiateDriverObject" is-config="true" duration-ms="45" started-at="2020-07-21T02:34:57Z" finished-at="2020-07-21T02:34:57Z">
+        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:com.selenium.BasicIT@48eff760]" name="instantiateDriverObject" is-config="true" duration-ms="15" started-at="2020-07-23T01:33:10Z" finished-at="2020-07-23T01:33:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instantiateDriverObject -->
-        <test-method status="PASS" signature="googleMilkExample()[pri:0, instance:com.selenium.BasicIT@77b52d12]" name="googleMilkExample" duration-ms="170751" started-at="2020-07-21T02:34:57Z" finished-at="2020-07-21T02:37:48Z">
+        <test-method status="PASS" signature="googleMilkExample()[pri:0, instance:com.selenium.BasicIT@48eff760]" name="googleMilkExample" duration-ms="11572" started-at="2020-07-23T01:33:10Z" finished-at="2020-07-23T01:33:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleMilkExample -->
-        <test-method status="PASS" signature="googleCheeseExample()[pri:0, instance:com.selenium.BasicIT@77b52d12]" name="googleCheeseExample" duration-ms="226794" started-at="2020-07-21T02:34:57Z" finished-at="2020-07-21T02:38:44Z">
+        <test-method status="PASS" signature="googleCheeseExample()[pri:0, instance:com.selenium.BasicIT@48eff760]" name="googleCheeseExample" duration-ms="15719" started-at="2020-07-23T01:33:10Z" finished-at="2020-07-23T01:33:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleCheeseExample -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.selenium.BasicIT@77b52d12]" name="clearCookies" is-config="true" duration-ms="15" started-at="2020-07-21T02:37:48Z" finished-at="2020-07-21T02:37:48Z">
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.selenium.BasicIT@48eff760]" name="clearCookies" is-config="true" duration-ms="168" started-at="2020-07-23T01:33:22Z" finished-at="2020-07-23T01:33:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.selenium.BasicIT@77b52d12]" name="clearCookies" is-config="true" duration-ms="11" started-at="2020-07-21T02:38:44Z" finished-at="2020-07-21T02:38:44Z">
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.selenium.BasicIT@48eff760]" name="clearCookies" is-config="true" duration-ms="210" started-at="2020-07-23T01:33:26Z" finished-at="2020-07-23T01:33:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:com.selenium.BasicIT@77b52d12]" name="closeDriverObjects" is-config="true" duration-ms="7822" started-at="2020-07-21T02:38:44Z" finished-at="2020-07-21T02:38:52Z">
+        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:com.selenium.BasicIT@48eff760]" name="closeDriverObjects" is-config="true" duration-ms="3087" started-at="2020-07-23T01:33:26Z" finished-at="2020-07-23T01:33:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriverObjects -->

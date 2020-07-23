@@ -6,6 +6,7 @@
             <methods>
                 <include name="googleCheeseExample"/>
                 <include name="googleMilkExample"/>
+                <include name="googleCakeExample"/>
             </methods>
         </class>
         </classes>
