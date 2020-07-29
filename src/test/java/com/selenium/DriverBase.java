@@ -6,12 +6,15 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.selenium.listeners.ScreenshotListener;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.selenium.config.DriverFactory;
+import org.testng.annotations.Listeners;
 
+@Listeners(ScreenshotListener.class)
 public class DriverBase {
 
 

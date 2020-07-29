@@ -5,4 +5,5 @@ com\selenium\config\DriverSetup.class
 com\selenium\config\DriverType$1.class
 com\selenium\BasicIT.class
 com\selenium\DriverBase$1.class
+com\selenium\listeners\ScreenshotListener.class
 com\selenium\config\DriverType.class

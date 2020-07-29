@@ -14,6 +14,7 @@
         <!--<argLine>-Dfile.encoding=UTF-8</argLine>-->
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
         <java.version>1.8</java.version>
+        <screenshotDirectory>${project.build.directory}</screenshotDirectory>
 
         <!--Dependency versions-->
         <selenium.version>3.9.1</selenium.version>
@@ -75,6 +76,7 @@
                         <webdriver.edge.driver>${webdriver.edge.driver}</webdriver.edge.driver>
                         -->
                         <browser>${browser}</browser>
+                        <screenshotDirectory>${screenshotDirectory}</screenshotDirectory>
                        <!-- <headless>${headless}</headless>
                         <remoteDriver>${remote}</remoteDriver>
 
