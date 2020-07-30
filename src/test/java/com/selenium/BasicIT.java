@@ -1,5 +1,6 @@
 package com.selenium;
 
+import com.selenium.Elements.BaiduHomePageElementCollection;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,7 +28,8 @@ public class BasicIT extends DriverBase {
     private void googleExampleThatSearchesFor(final String searchString){
         WebDriver driver=DriverBase.getDriver();
         driver.get("https://www.baidu.com");
-        WebElement searchField=driver.findElement(By.name("wd"));
+        WebElement searchField= BaiduHomePageElementCollection.searchField(driver);
+        //    WebElement searchField=driver.findElement(By.name("wd"));
 
         searchField.clear();
         searchField.sendKeys(searchString);

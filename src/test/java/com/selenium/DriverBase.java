@@ -64,7 +64,12 @@ public class DriverBase {
     //使用当前类中的getDriver()
     @AfterMethod(alwaysRun = true)
     public static void clearCookies(){
-        getDriver().manage().deleteAllCookies();
+        try{
+            getDriver().manage().deleteAllCookies();
+        }catch (Exception e){
+            System.err.println("Unable to clear cookies:"+e.getCause());
+        }
+
     }
 
     @AfterSuite
