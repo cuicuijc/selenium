@@ -1,16 +1,12 @@
-package com.selenium.Elements;
+package com.selenium.page_objects.Elements;
 
-import com.selenium.locators.BaiduHomePageLocatorCollection;
-import org.openqa.selenium.By;
+import com.selenium.page_objects.locators.BaiduHomePageLocatorCollection;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.NoSuchElementException;
-import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
 public class BaiduHomePageElementCollection {
@@ -36,7 +32,7 @@ public class BaiduHomePageElementCollection {
        return wait.until(new Function<WebDriver, WebElement>() {
             @Override
             public WebElement apply(WebDriver driver) {
-                return driver.findElement(By.name(BaiduHomePageLocatorCollection.searchField_Name));
+                return driver.findElement(BaiduHomePageLocatorCollection.searchField);
             }});
 
     }

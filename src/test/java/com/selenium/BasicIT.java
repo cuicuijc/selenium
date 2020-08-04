@@ -1,12 +1,11 @@
 package com.selenium;
 
-import com.selenium.Elements.BaiduHomePageElementCollection;
-import org.openqa.selenium.By;
+import com.selenium.page_objects.Elements.BaiduHomePageElementCollection;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 
@@ -34,14 +33,14 @@ public class BasicIT extends DriverBase {
         searchField.clear();
         searchField.sendKeys(searchString);
 
-        System.out.println("Page title is:"+driver.getTitle());
+        Assert.assertEquals(driver.getTitle(),"百度一下，你就知道");
 
         searchField.submit();
 
         WebDriverWait wait=new WebDriverWait(driver,10,100);
         wait.until(pageTitleStartsWith(searchString));
 
-        System.out.println("Page title is:"+driver.getTitle());
+        Assert.assertEquals(driver.getTitle(),searchString+"_百度搜索");
 
     }
 

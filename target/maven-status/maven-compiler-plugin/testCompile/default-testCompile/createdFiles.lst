@@ -1,12 +1,12 @@
 com\selenium\config\DriverType$2.class
+com\selenium\page_objects\locators\BaiduHomePageLocatorCollection.class
 com\selenium\DriverBase.class
-com\selenium\Elements\BaiduHomePageElementCollection.class
+com\selenium\page_objects\Elements\BaiduHomePageElementCollection$1.class
 com\selenium\config\DriverFactory.class
 com\selenium\config\DriverSetup.class
-com\selenium\Elements\BaiduHomePageElementCollection$1.class
 com\selenium\config\DriverType$1.class
 com\selenium\BasicIT.class
 com\selenium\DriverBase$1.class
 com\selenium\listeners\ScreenshotListener.class
+com\selenium\page_objects\Elements\BaiduHomePageElementCollection.class
 com\selenium\config\DriverType.class
-com\selenium\locators\BaiduHomePageLocatorCollection.class
