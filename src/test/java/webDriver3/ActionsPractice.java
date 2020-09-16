@@ -35,5 +35,6 @@ public class ActionsPractice {
         Actions action=new Actions(driver);
         //action.sendKeys("Selina").perform();
         action.click(driver.findElement(By.id("kw"))).sendKeys("Selenium").perform();
+        driver.quit();
     }
 }

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="15" failures="2" name="TestSuite" time="258.085" errors="0" skipped="2">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.7+10-LTS-sapmachine"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\SapMachine\JDK\11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\GitIDEA\selenium-testng-study"/>
+    <property name="java.vm.vendor" value="SAP SE"/>
+    <property name="java.vendor.url" value="https://sapmachine.io/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\GitIDEA\selenium-testng-study"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.7+10-LTS-sapmachine"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\c5270503\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Selina_OnP\Automation\maven3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\SapMachine\JDK\11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\SapMachine\JDK\11\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oracle\C5270503\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Software\Perforce\;C:\Program Files (x86)\HP\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\SapMachine\JDK\11\\bin ? C:\Program Files\SapMachine\JDK\11\\jre\bin;C:\Selina_OnP\Automation\maven3.6.0\bin;C:\Git\Git\cmd;C:\Maven\apache-maven-3.6.3\bin;C:\GitIDEA\selenium-testng-study;C:\Users\c5270503\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="C:\Selina_OnP\Automation\maven3.6.0\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Selina_OnP\Automation\maven3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\c5270503"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="C5270503"/>
+    <property name="java.class.path" value="C:\Selina_OnP\Automation\maven3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.home" value="C:\Program Files\SapMachine\JDK\11"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="java.vendor" value="SAP SE"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Selina_OnP\Automation\maven3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-04-15"/>
+    <property name="java.vendor.url.bug" value="https://github.com/SAP/SapMachine/issues/new"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="webDriver3.chapter12.DataProviderTest" name="test" time="23.84"/>
+  <testcase classname="webDriver3.chapter12.DataProviderTest" name="test" time="23.708"/>
+  <testcase classname="webDriver3.chapter12.DataProviderTest" name="test" time="19.42"/>
+  <testcase classname="webDriver3.chapter12.TestDataDrivenByCSVFile" name="testSearch" time="15.013"/>
+  <testcase classname="webDriver3.chapter12.TestDataDrivenByCSVFile" name="testSearch" time="14.737"/>
+  <testcase classname="webDriver3.chapter12.TestDataDrivenByCSVFile" name="testSearch" time="14.689"/>
+  <testcase classname="webDriver3.chapter12.TestDataDrivenByCSVFile" name="testSearch" time="14.616"/>
+  <testcase classname="webDriver3.chapter12.TestDataDrivenByExcelFile" name="testSearch" time="11.94"/>
+  <testcase classname="webDriver3.chapter12.TestDataDrivenByExcelFile" name="testSearch" time="13.465">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at webDriver3.chapter12.TestDataDrivenByExcelFile.testSearch(TestDataDrivenByExcelFile.java:45)
+</failure>
+    <system-err>1600236817363	Marionette	INFO	Stopped listening on port 61935
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600236820159	mozrunner::runner	INFO	Running command: &quot;C:/Users/c5270503/firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\c5270503\\AppData\\Local\\Temp\\rust_mozprofileQeeHCw&quot;
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can&apos;t find profile directory.
+console.error: SearchCache: &quot;_readCacheFile: Error reading cache file:&quot; (new Error(&quot;&quot;, &quot;(unknown module)&quot;))
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+console.error: BookmarksPolicies.jsm: 
+  Message: Error: parentGuid must be valid
+  Stack:
+    insert/&lt;@resource://gre/modules/Bookmarks.jsm:298:15
+
+1600236825698	Marionette	INFO	Listening on port 62243
+1600236826115	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sep 16, 2020 2:13:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="webDriver3.chapter12.TestDataDrivenByExcelFile" name="testSearch" time="12.634"/>
+  <testcase classname="webDriver3.chapter12.TestDataDrivenByExcelFile" name="testSearch" time="12.641"/>
+  <testcase classname="webDriver3.chapter12.TestDataDrivenByExcelFile" name="testSearch" time="15.236"/>
+  <testcase classname="webDriver3.MultipleBrowserSearchTest" name="beforeTest" time="22.048">
+    <failure message="
+Parameter &apos;browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-err>1600236884119	Marionette	INFO	Stopped listening on port 62953
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+</system-err>
+  </testcase>
+  <testcase classname="webDriver3.MultipleBrowserSearchTest" name="testSogouSearch" time="22.049">
+    <skipped/>
+  </testcase>
+  <testcase classname="webDriver3.MultipleBrowserSearchTest" name="afterTest" time="22.049">
+    <skipped/>
+  </testcase>
+</testsuite>

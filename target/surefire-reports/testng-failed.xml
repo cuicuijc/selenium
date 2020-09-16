@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="webDriver3.MultipleBrowserSearchTest">
+        <methods>
+          <include name="testSogouSearch"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- webDriver3.MultipleBrowserSearchTest -->
+      <class name="webDriver3.chapter12.TestDataDrivenByExcelFile">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="testSearch" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- webDriver3.chapter12.TestDataDrivenByExcelFile -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-16T06:11:07Z" name="Command line suite" finished-at="2020-09-16T06:14:50Z" duration-ms="222935">
+    <groups>
+    </groups>
+    <test started-at="2020-09-16T06:11:07Z" name="Command line test" finished-at="2020-09-16T06:14:50Z" duration-ms="222935">
+      <class name="webDriver3.chapter12.TestDataDrivenByCSVFile">
+        <test-method signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webDriver3.chapter12.TestDataDrivenByCSVFile@30ee2816]" started-at="2020-09-16T06:12:15Z" name="testSearch" data-provider="testData" finished-at="2020-09-16T06:12:30Z" duration-ms="15016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[还珠格格]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[主演]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[赵薇]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:webDriver3.chapter12.TestDataDrivenByCSVFile@30ee2816]" started-at="2020-09-16T06:12:30Z" name="afterMethod" finished-at="2020-09-16T06:12:32Z" duration-ms="2441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webDriver3.chapter12.TestDataDrivenByCSVFile@30ee2816]" started-at="2020-09-16T06:12:32Z" name="testSearch" data-provider="testData" finished-at="2020-09-16T06:12:47Z" duration-ms="14737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[倚天屠龙记]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[主演]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[赵敏]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:webDriver3.chapter12.TestDataDrivenByCSVFile@30ee2816]" started-at="2020-09-16T06:12:47Z" name="afterMethod" finished-at="2020-09-16T06:12:49Z" duration-ms="2311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webDriver3.chapter12.TestDataDrivenByCSVFile@30ee2816]" started-at="2020-09-16T06:12:49Z" name="testSearch" data-provider="testData" finished-at="2020-09-16T06:13:04Z" duration-ms="14688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[神雕侠侣]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[主演]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[古天乐]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:webDriver3.chapter12.TestDataDrivenByCSVFile@30ee2816]" started-at="2020-09-16T06:13:04Z" name="afterMethod" finished-at="2020-09-16T06:13:07Z" duration-ms="2854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webDriver3.chapter12.TestDataDrivenByCSVFile@30ee2816]" started-at="2020-09-16T06:13:07Z" name="testSearch" data-provider="testData" finished-at="2020-09-16T06:13:21Z" duration-ms="14614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[射雕英雄传]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[主演]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[翁美玲]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:webDriver3.chapter12.TestDataDrivenByCSVFile@30ee2816]" started-at="2020-09-16T06:13:21Z" name="afterMethod" finished-at="2020-09-16T06:13:24Z" duration-ms="2660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- webDriver3.chapter12.TestDataDrivenByCSVFile -->
+      <class name="webDriver3.chapter12.DataProviderTest">
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webDriver3.chapter12.DataProviderTest@c267ef4]" started-at="2020-09-16T06:11:08Z" name="test" data-provider="searchWords" finished-at="2020-09-16T06:11:31Z" duration-ms="23840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[还珠格格]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[主演]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[赵薇]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webDriver3.chapter12.DataProviderTest@c267ef4]" started-at="2020-09-16T06:11:31Z" name="test" data-provider="searchWords" finished-at="2020-09-16T06:11:55Z" duration-ms="23715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[倚天屠龙记]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[主演]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[赵敏]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webDriver3.chapter12.DataProviderTest@c267ef4]" started-at="2020-09-16T06:11:55Z" name="test" data-provider="searchWords" finished-at="2020-09-16T06:12:15Z" duration-ms="19432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[锦衣之下]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[主演]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[谭松韵]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- webDriver3.chapter12.DataProviderTest -->
+      <class name="webDriver3.chapter12.TestDataDrivenByExcelFile">
+        <test-method signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webDriver3.chapter12.TestDataDrivenByExcelFile@31d7b7bf]" started-at="2020-09-16T06:13:25Z" name="testSearch" data-provider="testData" finished-at="2020-09-16T06:13:37Z" duration-ms="11939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[电影名称]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[电影的属性]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[搜索结果]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:webDriver3.chapter12.TestDataDrivenByExcelFile@31d7b7bf]" started-at="2020-09-16T06:13:37Z" name="afterMethod" finished-at="2020-09-16T06:13:39Z" duration-ms="2213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webDriver3.chapter12.TestDataDrivenByExcelFile@31d7b7bf]" started-at="2020-09-16T06:13:39Z" name="testSearch" data-provider="testData" finished-at="2020-09-16T06:13:53Z" duration-ms="13456" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[光荣之路]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[上映日期]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2006-00-13]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at webDriver3.chapter12.TestDataDrivenByExcelFile.testSearch(TestDataDrivenByExcelFile.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:webDriver3.chapter12.TestDataDrivenByExcelFile@31d7b7bf]" started-at="2020-09-16T06:13:53Z" name="afterMethod" finished-at="2020-09-16T06:13:55Z" duration-ms="2229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webDriver3.chapter12.TestDataDrivenByExcelFile@31d7b7bf]" started-at="2020-09-16T06:13:55Z" name="testSearch" data-provider="testData" finished-at="2020-09-16T06:14:07Z" duration-ms="12632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[功夫]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[主演]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[周星驰]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:webDriver3.chapter12.TestDataDrivenByExcelFile@31d7b7bf]" started-at="2020-09-16T06:14:07Z" name="afterMethod" finished-at="2020-09-16T06:14:13Z" duration-ms="5891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webDriver3.chapter12.TestDataDrivenByExcelFile@31d7b7bf]" started-at="2020-09-16T06:14:13Z" name="testSearch" data-provider="testData" finished-at="2020-09-16T06:14:26Z" duration-ms="12640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[超人]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[主演]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[克里斯托弗]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:webDriver3.chapter12.TestDataDrivenByExcelFile@31d7b7bf]" started-at="2020-09-16T06:14:26Z" name="afterMethod" finished-at="2020-09-16T06:14:28Z" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webDriver3.chapter12.TestDataDrivenByExcelFile@31d7b7bf]" started-at="2020-09-16T06:14:28Z" name="testSearch" data-provider="testData" finished-at="2020-09-16T06:14:44Z" duration-ms="15236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[蜘蛛侠1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[女主角]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[克尔斯滕]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:webDriver3.chapter12.TestDataDrivenByExcelFile@31d7b7bf]" started-at="2020-09-16T06:14:44Z" name="afterMethod" finished-at="2020-09-16T06:14:50Z" duration-ms="6810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- webDriver3.chapter12.TestDataDrivenByExcelFile -->
+      <class name="webDriver3.MultipleBrowserSearchTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:webDriver3.MultipleBrowserSearchTest@635eaaf1]" started-at="2020-09-16T06:14:50Z" name="beforeTest" finished-at="2020-09-16T06:14:50Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testSogouSearch()[pri:0, instance:webDriver3.MultipleBrowserSearchTest@635eaaf1]" started-at="2020-09-16T06:14:50Z" name="testSogouSearch" finished-at="2020-09-16T06:14:50Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSogouSearch -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:webDriver3.MultipleBrowserSearchTest@635eaaf1]" started-at="2020-09-16T06:14:50Z" name="afterTest" finished-at="2020-09-16T06:14:50Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- webDriver3.MultipleBrowserSearchTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
