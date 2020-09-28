@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/GitIDEA/selenium-testng-study">
-        <classes><class name="com.selenium.BasicIT">
-            <methods>
-                <include name="googleCheeseExample"/>
-                <include name="googleMilkExample"/>
-                <include name="googleCakeExample"/>
-            </methods>
-        </class>
-        </classes>
-    </test>
+<suite name="systemTest">
+    <suite-files>
+        <suite-file path="C:\GitIDEA\selenium-testng-study\testng_xml\testng_BasicIT.xml"></suite-file>
+        <suite-file path="C:\GitIDEA\selenium-testng-study\testng_xml\testng_MultipleBrowserSearchTest.xml"></suite-file>
+		<suite-file path="C:\GitIDEA\selenium-testng-study\testng_xml\testng_ActionsPractice.xml"></suite-file>
+	    <suite-file path="C:\GitIDEA\selenium-testng-study\testng_xml\testng_DrivenByDate.xml"></suite-file>
+		
+    </suite-files>
 </suite>
